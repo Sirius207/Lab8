@@ -7,8 +7,7 @@ using namespace std;
  {
  
  try{
- 
-	Mino * mino_ptr;
+ 	Mino * mino_ptr;
 	srandom(time(NULL));
 	for(int i=0;i<50;++i)
 	{
@@ -20,6 +19,6 @@ using namespace std;
 						memoryAlloc.what() << endl;
 	}
  
-}
+
  return 0;
  }
